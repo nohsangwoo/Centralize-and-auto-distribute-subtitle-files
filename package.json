@@ -1,0 +1,19 @@
+{
+  "name": "ccos",
+  "version": "1.0.0",
+  "description": "Central Control of Script",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=prod nodemon index.js",
+    "start:dev": "NODE_ENV=dev nodemon index.js",
+    "start:os": "NODE_ENV=dev node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
